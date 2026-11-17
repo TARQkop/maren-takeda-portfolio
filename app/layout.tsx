@@ -12,7 +12,7 @@ const description =
   "Maren Takeda is a Porto-based ceramic artist making wood-fired tableware, sculptural vessels and installations from Douro river clay. Commissions open for Spring 2027.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://marentakeda.example"),
+  metadataBase: new URL("https://tarqkop.github.io/maren-takeda-portfolio/"),
   title: { default: title, template: `%s · ${person.name}` },
   description,
   keywords: [

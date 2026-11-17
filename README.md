@@ -8,9 +8,14 @@ Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · Motion · GSAP (Scroll
 ```bash
 npm install
 npm run dev          # http://localhost:3000
-npm run build && npm start
+npm run build        # exports the static site to out/
 npm run check:images # confirms every Unsplash photo URL responds
 ```
+
+## Deploy
+
+Pushes to `main` are published automatically with GitHub Actions:
+https://tarqkop.github.io/maren-takeda-portfolio/
 
 ## Structure
 

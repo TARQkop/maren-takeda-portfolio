@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  output: "export",
+  basePath: "/maren-takeda-portfolio",
+  trailingSlash: true,
   images: {
     // Images are served through a custom loader (lib/images.ts) that asks
     // Unsplash's CDN for the exact width needed; the patterns below also
